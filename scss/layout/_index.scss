@@ -45,6 +45,7 @@
  }
 
  .containerCircular {
+  padding-top: 30px;
    width: 250px;
    height: 300px;
    display: flex;
@@ -82,7 +83,7 @@
    align-items: center;
    justify-content: center;
    font-family: $fontprimaria;
-   gap: 45px;
+   gap: 20px;
    width: 100%;
    height: 700px;
  }
