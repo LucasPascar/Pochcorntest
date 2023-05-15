@@ -98,8 +98,7 @@ body {
   width: 100%; }
   .carousel-item img {
     height: 800px;
-    width: 100%;
-    object-fit: cover; }
+    width: 100%; }
 
 /**Titulos*/
 .main h1 {
@@ -110,7 +109,7 @@ body {
 
 /**circulos index*/
 .sectionCirculos {
-  padding-top: 80px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
