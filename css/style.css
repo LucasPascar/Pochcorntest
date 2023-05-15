@@ -110,6 +110,7 @@ body {
 
 /**circulos index*/
 .sectionCirculos {
+  padding-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
