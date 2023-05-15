@@ -1,0 +1,121 @@
+ /**index*/
+ body {
+   height: auto;
+ }
+
+
+ /**Carrousel Index*/
+
+
+.carrouselContainer{
+  height: 900px;
+  max-width: 100%;
+}
+
+ .carousel-item {
+   height: 100%;
+   width: 100%;
+
+   img {
+     height: 900px;
+     width: 100%;
+     object-fit: cover;
+   }
+ }
+
+ /**Titulos*/
+ .main h1 {
+   display: flex;
+   justify-content: center;
+   font-family: $fontprimaria;
+   color: black;
+ }
+
+ /**circulos index*/
+
+ .sectionCirculos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: white;
+   height: 100%;
+   width: 100%;
+
+ }
+
+ .containerCircular {
+   width: 250px;
+   height: 300px;
+   display: flex;
+   align-items: center;
+
+   img {
+     width: 300px;
+     height: 250px;
+   }
+ }
+
+
+
+ .condicionesContainer {
+   background-color: $colorprimario;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   font-family: $fontprimaria;
+   text-align: center;
+   font-size: 30px;
+   width: 100%;
+   height: 350px;
+
+ }
+
+ /**Formulario*/
+
+ .formContainer {
+   background-color: $colorsecundario;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: $fontprimaria;
+   gap: 45px;
+   width: 100%;
+   height: 700px;
+ }
+
+
+
+ .inputContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   height: 30px;
+   border-radius: 7px;
+ }
+
+ .inputContainerTa {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   height: 320px;
+ }
+
+ .form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 5px;
+   align-items: center;
+
+
+ }
+
+
+ .trucazo {
+   opacity: 0;
+ }

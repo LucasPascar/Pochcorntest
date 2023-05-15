@@ -1,0 +1,392 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@1,200&display=swap");
+/**Agregados de estilo**/
+@font-face {
+  font-family: Cherolina;
+  /* Especifica el nombre que le quieres dar a la fuente */
+  src: url("/font/cherolina/cherolina.ttf");
+  /* Especifica la ubicación de la fuente dentro de tu proyecto */ }
+
+body {
+  background-color: #c4ad99;
+  height: auto; }
+
+.bodya {
+  background-color: #c4ad99; }
+
+/**Footer*/
+.footerContainer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  border-top: whitesmoke solid;
+  background-image: url(/assets/seleccionados/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.footerContainer a {
+  font-size: 20px; }
+
+.footerContainer i {
+  font-size: 50px; }
+
+.footerContainerBrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  font-weight: bold;
+  gap: 30px;
+  color: black; }
+
+.footerContainerBrand p {
+  font-size: 50px; }
+
+.fbicon {
+  color: black; }
+
+/* nav Bar*/
+.navbar-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px !important; }
+
+.nav-link:focus {
+  outline: none; }
+
+.icon {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto; }
+
+.navconfig {
+  background-color: #d6c3b2;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  color: black; }
+
+.navItems {
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.main h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-top: 10px; }
+
+.dropdownP {
+  background-color: #d6c3b2; }
+
+/**index*/
+body {
+  height: auto; }
+
+/**Carrousel Index*/
+.carrouselContainer {
+  height: 900px;
+  max-width: 100%; }
+
+.carousel-item {
+  height: 100%;
+  width: 100%; }
+  .carousel-item img {
+    height: 900px;
+    width: 100%;
+    object-fit: cover; }
+
+/**Titulos*/
+.main h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: black; }
+
+/**circulos index*/
+.sectionCirculos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  height: 100%;
+  width: 100%; }
+
+.containerCircular {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center; }
+  .containerCircular img {
+    width: 300px;
+    height: 250px; }
+
+.condicionesContainer {
+  background-color: #d6c3b2;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  height: 350px; }
+
+/**Formulario*/
+.formContainer {
+  background-color: #c4ad99 179, 38, 14;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  gap: 45px;
+  width: 100%;
+  height: 700px; }
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 7px; }
+
+.inputContainerTa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 320px; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  align-items: center; }
+
+.trucazo {
+  opacity: 0; }
+
+/**E-commerce*/
+.botonespecial {
+  background-color: #d6c3b2;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.botonespecial:hover {
+  background-color: #f5e8d7;
+  color: black; }
+
+.botonespecial2 {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.botonespecial2:hover {
+  background-color: red;
+  color: black; }
+
+/**cards de productos*/
+.cardP {
+  width: 500px;
+  font-family: 'Montserrat', sans-serif; }
+
+.cardInfoP {
+  text-align: center;
+  justify-content: center; }
+  .cardInfoP h3 {
+    font-family: "Cherolina", sans-serif;
+    font-size: 60px;
+    font-weight: bold; }
+
+@media only screen and (max-width: 1900px) {
+  .carrouselContainer {
+    height: 650px;
+    width: 100%; } }
+
+@media only screen and (max-width: 1520px) {
+  .carrouselContainer {
+    height: 300px;
+    width: 100%; } }
+
+@media only screen and (max-width: 1366px) {
+  .carrouselContainer {
+    height: 300px;
+    width: 100%; } }
+
+@media only screen and (max-width: 770px) {
+  /* nav Bar*/
+  .navbar-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px !important; }
+  .icon {
+    width: 200px;
+    height: 200px; }
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: black; }
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: #d6c3b2;
+    z-index: 100; } }
+
+@media only screen and (max-width: 760px) {
+  /* nav Bar*/
+  .navbar-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px !important; }
+  .icon {
+    width: 200px;
+    height: 200px; }
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: black; }
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: #d6c3b2;
+    z-index: 100; } }
+
+@media only screen and (max-width: 500px) {
+  /* nav Bar*/
+  .navbar-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px !important; }
+  .nav-link:focus {
+    outline: none; }
+  .icon {
+    width: 200px;
+    height: 200px; }
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: black; }
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: #d6c3b2;
+    z-index: 100; }
+  .carrouselContainer {
+    max-width: 100%;
+    height: 204px; }
+  .carousel-item {
+    max-width: 100%; }
+    .carousel-item img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+  .sectionCirculos {
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    max-width: 100%; }
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    margin-top: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .containerCircular img {
+      width: 100px;
+      height: 100px; }
+  .disvain {
+    display: none; }
+  .condicionesContainer {
+    font-size: 20px;
+    width: 100%;
+    height: 300px; }
+  /**Footer*/
+  .footerContainer {
+    text-align: center; }
+  .footerContainer a {
+    font-size: 20px; }
+  .footerContainer i {
+    font-size: 50px; }
+  .footerContainerBrand p {
+    font-size: 20px; }
+  /**Formulario*/
+  .inputContainerTa {
+    width: 350px;
+    height: 300px; }
+  .formContainer {
+    background-color: #c4ad99 179, 38, 14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 750px; }
+    .formContainer h1 {
+      padding-top: 20px;
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center; } }
+
+@media only screen and (max-width: 400px) {
+  .carrouselContainer {
+    height: 218px;
+    width: 100%; }
+  .disvain {
+    display: none; }
+  .sectioncirculos {
+    padding: 0%;
+    justify-content: space-between;
+    background-color: #c4ad99 179, 38, 14;
+    width: 100%;
+    height: 200px;
+    border-top: solid white;
+    align-items: center; }
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .containerCircular img {
+      width: 100px;
+      height: 100px; }
+  .formContainer {
+    background-color: #c4ad99 179, 38, 14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 750px; } }

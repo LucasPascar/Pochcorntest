@@ -1,0 +1,43 @@
+  /* nav Bar*/
+
+  .navbar-item {
+      font-family: $fontprimaria;
+      font-weight: bold;
+      font-size: 30px !important;
+  }
+  
+  .nav-link:focus {
+    outline: none;
+  }
+
+  .icon {
+      width: 300px;
+      height: 200px;
+      margin: 0 auto;
+  }
+
+  .navconfig {
+      background-color: $colorprimario;
+      height: 200px;
+      width: 100%;
+      display: flex;
+      color: black;
+  }
+
+  .navItems {
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
+  .main h1 {
+      display: flex;
+      justify-content: center;
+      font-family: $fontprimaria;
+      color: black;
+      margin-top: 10px;
+  }
+
+
+  .dropdownP {
+      background-color: $colorprimario;
+  }
