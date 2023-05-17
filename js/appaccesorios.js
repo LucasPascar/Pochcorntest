@@ -19,98 +19,163 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "A01-1", 1000, 10, "../assets/accesorios/A01-1.png", "Hecho en cuero", "a01-1"),
-            new Producto(2, "A02-1", 1000, 10, "../assets/accesorios/A02-1.png", "Hecho en cuero", "a02-1"),
-            new Producto(3, "A03-1", 1000, 10, "../assets/accesorios/A03-1.png", "Hecho en cuero", "a03-1"),
-            new Producto(4, "A04-1", 1000, 10, "../assets/accesorios/A04.png", "Hecho en cuero", "a04-1"),
-            new Producto(5, "A05-1", 1000, 10, "../assets/accesorios/A05.png", "Hecho en cuero", "a05-1"),
-            new Producto(6, "A06-1", 1000, 10, "../assets/accesorios/A06.png", "Hecho en cuero", "a06-1"),
-            new Producto(7, "A07-1", 1000, 10, "../assets/accesorios/A07.png", "Hecho en cuero", "a07-1"),
-            new Producto(8, "A08-1", 1000, 10, "../assets/accesorios/A08.png", "Hecho en cuero", "a08-1"),
-            new Producto(9, "A09-1", 1000, 10, "../assets/accesorios/A09-1.png", "Hecho en cuero", "a09-1"),
-            new Producto(10, "A10-1", 1000, 10, "../assets/accesorios/A010-1.png", "Hecho en cuero", "a010-1"),
-            new Producto(11, "A11-1", 1000, 10, "../assets/accesorios/A011-1.png", "Hecho en cuero", "a011-1"),
-            new Producto(12, "A12-1", 1000, 10, "../assets/accesorios/A012-1.png", "Hecho en cuero", "a012-1"),
-            new Producto(13, "A13-1", 1000, 10, "../assets/accesorios/A013-1.png", "Hecho en cuero", "a013-1"),
-            new Producto(14, "A14-1", 1000, 10, "../assets/accesorios/A014-1.png", "Hecho en cuero", "a014-1"),
-            new Producto(15, "A15-1", 1000, 10, "../assets/accesorios/A015-1.png", "Hecho en cuero", "a015-1"),
-            new Producto(16, "A16-1", 1000, 10, "../assets/accesorios/A016-1.png", "Hecho en cuero", "a016-1"),
-            new Producto(17, "A17-1", 34000, 10, "../assets/accesorios/A017-1.png", "Hecho en cuero", "a017-1"),
-            new Producto(18, "A18-1", 1000, 10, "../assets/accesorios/A018-1.png", "Hecho en cuero", "a018-1"),
-            new Producto(19, "A19-1", 1000, 10, "../assets/accesorios/A019-1.png", "Hecho en cuero", "a019-1"),
-            new Producto(20, "A20-1", 1000, 10, "../assets/accesorios/A020-1.png", "Hecho en cuero", "a021-1"),
-            new Producto(21, "A21-1", 1000, 10, "../assets/accesorios/A021-1.png", "Hecho en cuero", "a022-1"),
-            new Producto(22, "A22-1", 1000, 10, "../assets/accesorios/A022-1.png", "Hecho en cuero", "a023-1"),
-            new Producto(23, "A23-1", 1000, 10, "../assets/accesorios/A023-1.png", "Hecho en cuero", "a024-1"),
-            new Producto(24, "A24-1", 1000, 10, "../assets/accesorios/A024-1.png", "Hecho en cuero", "a025-1"),
-            new Producto(26, "A25-1", 14500, 10, "../assets/accesorios/A025-1.png", "Hecho en cuero", "a026-1"),
-            new Producto(27, "A26-1", 19000, 10, "../assets/accesorios/A026-1.png", "Hecho en cuero", "a027-1"),
-            new Producto(28, "A27-1", 1000, 10, "../assets/accesorios/A027-1.png", "Hecho en cuero", "a028-1"),
-            new Producto(29, "A28-1", 1000, 10, "../assets/accesorios/A028-1.png", "Hecho en cuero", "a029-1"),
-            new Producto(30, "A29-1", 22500, 10, "../assets/accesorios/A029-1.png", "Hecho en cuero", "a030-1"),
-            new Producto(31, "A30-1", 1000, 10, "../assets/accesorios/A030-1.png", "Hecho en cuero", "a031-1"),
-            new Producto(32, "A31-1", 34000, 10, "../assets/accesorios/A031-1.png", "Hecho en cuero", "a032-1"),
-            new Producto(33, "A32-1", 22500, 10, "../assets/accesorios/A032-1.png", "Hecho en cuero", "a033-1"),
-            new Producto(34, "A33-1", 22500, 10, "../assets/accesorios/A033-1.png", "Hecho en cuero", "a034-1"),
-            new Producto(35, "A34-1", 1000, 10, "../assets/accesorios/A034-1.png", "Hecho en cuero", "a035-1"),
-            new Producto(36, "A35-1", 1000, 10, "../assets/accesorios/A035-1XL.png", "Hecho en cuero", "a035-1XL"),
-            new Producto(37, "A35-1", 1000, 10, "../assets/accesorios/A035-2XL.png", "Hecho en cuero", "a035-2XL"),
-            new Producto(38, "A36-1", 1000, 10, "../assets/accesorios/A036-1.png", "Hecho en cuero", "a036-1"),
-            new Producto(39, "A37-1", 14500, 10, "../assets/accesorios/A037-1.png", "Hecho en cuero", "a037-1"),
-            new Producto(40, "A38-1", 14500, 10, "../assets/accesorios/A038-1.png", "Hecho en cuero", "a038-1"),
+            new Producto(20, "Riñonera Mochila", 1000, 10, "../assets/accesorios/rinoneraMochila1.png", "Hecho en cuero", "riñoneraMochila"),
+            new Producto(21, "Riñonera Frontal", 1000, 10, "../assets/accesorios/rinoneraFrontal1.png", "Hecho en cuero", "riñoneraFrontal"),
+            new Producto(22, "Porta Notebook", 1000, 10, "../assets/accesorios/portaNotebook1.png", "Hecho en cuero", "portaNotebook"),
+            new Producto(23, "Porta Manta", 1000, 10, "../assets/accesorios/portaManta1.png", "Hecho en cuero", "portaManta"),
+            new Producto(24, "Mochila Europa", 1000, 10, "../assets/accesorios/mochila1.png", "Hecho en cuero", "MochilaEuropa"),
+            new Producto(25, "Matera", 1000, 10, "../assets/accesorios/matera1.png", "Hecho en cuero", "Matera"),
+            new Producto(26, "Cartera Tote", 1000, 10, "../assets/accesorios/carteraTote1.png", "Hecho en cuero", "CarteraTote"),
+            new Producto(27, "Cartera Mochila", 1000, 10, "../assets/accesorios/carteraMochila1.png", "Hecho en cuero", "CarteraMochila"),
+            new Producto(28, "Cartera Bandolera", 1000, 10, "../assets/accesorios/carteraBandolera1.png", "Hecho en cuero", "carteraBandolera"),
+            new Producto(29, "Bolso Tubular", 1000, 10, "../assets/accesorios/bolsoTubular1.png", "Hecho en cuero", "bolsoTubular"),
+            new Producto(30, "Billetera Masculina", 1000, 10, "../assets/accesorios/billeteraH1.png", "Hecho en cuero", "billeteraH1"),
+            new Producto(31, "Billetera con Cierre", 1000, 10, "../assets/accesorios/billeteraCierre1.png", "Hecho en cuero", "billeteraCierre"),
+            new Producto(32, "Bandolera", 1000, 10, "../assets/accesorios/bandolera1.png", "Hecho en cuero", "bandolera"),
+
 
         ]
     }
 
     mostrarEnDOM() {
-        //Mostramos los productos en DOM de manera dinamica
-        this.listaProductos.forEach(producto => {
-            this.contenedor_productos.innerHTML +=
-                `<div class="card cardP">
-                    <img src="${producto.img}" alt="${producto.alt}">
-                <div class="card-info cardInfoP">
-                    <h3>${producto.nombre}</h3>
-                    <p>${producto.descripcion}</p>
-                    <p>$${producto.precio}</p>
-                  <!--  <a href="#" id="Accesorio N°-${producto.id}" class="btn btn-primary botonespecial">Añadir al carrito</a> --!>
-                </div>
-                </div>`
-        })
+        // Mostramos los productos en DOM de manera dinámica
+        this.listaProductos.forEach((producto) => {
+            let imgSrc = producto.img; // Por defecto, utilizamos la imagen original
+            let imgIndex = 1; // Índice de imagen actual
+
+            // Verificamos si es "Capri" o "Roma" para cambiar la imagen
+            if (producto.nombre === "Riñonera Mochila") {
+                imgSrc = `../assets/accesorios/rinoneraMochila${imgIndex}.png`;
+            } else if (producto.nombre === "Riñonera Frontal") {
+                imgSrc = `.../assets/accesorios/rinoneraFrontal${imgIndex}.png`;
+            } else if (producto.nombre === "Porta Notebook") {
+                imgSrc = `../assets/accesorios/portaNotebook${imgIndex}.png`;
+            } else if (producto.nombre === "Porta Manta") {
+                imgSrc = `../assets/accesorios/portaManta${imgIndex}.png`;
+            } else if (producto.nombre === "Mochila Europa") {
+                imgSrc = `../assets/accesorios/mochila${imgIndex}.png`;
+            } else if (producto.nombre === "Matera") {
+                imgSrc = `../assets/accesorios/matera${imgIndex}.png`;
+            } else if (producto.nombre === "Cartera Mochila") {
+                imgSrc = `../assets/accesorios/carteraMochila${imgIndex}.png`;
+            } else if (producto.nombre === "Cartera Bandolera") {
+                imgSrc = `../assets/accesorios/carteraBandolera${imgIndex}.png`;
+            } else if (producto.nombre === "Bolso Tubular") {
+                imgSrc = `../assets/accesorios/bolsoTubular${imgIndex}.png`;
+            } else if (producto.nombre === "Billetera con Cierre") {
+                imgSrc = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
+            } else if (producto.nombre === "Bandolera") {
+                imgSrc = `../assets/accesorios/bandolera${imgIndex}.png`;
+            }
+
+
+            const card = document.createElement('div');
+            card.classList.add('card', 'cardP');
+
+            const img = document.createElement('img');
+            img.id = `product-image-${producto.id}`;
+            img.src = imgSrc;
+            img.alt = producto.alt;
+
+            // Función para cambiar la imagen automáticamente
+            // Función para cambiar la imagen automáticamente
+            const changeImage = () => {
+                // Verificamos el producto y actualizamos la imagen según su nombre
+                switch (producto.nombre) {
+                    case "Riñonera Mochila":
+                        imgIndex = (imgIndex % 4) + 1; // Alternamos el índice de imagen de 1 a 8
+                        img.src = `../assets/accesorios/rinoneraMochila${imgIndex}.png`;
+                        break;
+                    case "Riñonera Frontal":
+                        imgIndex = (imgIndex % 3) + 1;
+                        img.src = `../assets/accesorios/rinoneraFrontal${imgIndex}.png`;
+                        break;
+                    // Agrega casos para los otros productos con hasta 8 imágenes
+                    case "Porta Notebook":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/portaNotebook${imgIndex}.png`;
+                        break;
+                    case "Porta Manta":
+                        imgIndex = (imgIndex % 3) + 1;
+                        img.src = `../assets/accesorios/portaManta${imgIndex}.png`;
+                        break;
+                    case "Mochila Europa":
+                        imgIndex = (imgIndex % 7) + 1;
+                        img.src = `../assets/accesorios/mochila${imgIndex}.png`;
+                        break;
+                    case "Matera":
+                        imgIndex = (imgIndex % 7) + 1;
+                        img.src = `../assets/accesorios/matera${imgIndex}.png`;
+                        break;
+                    case "Cartera Mochila":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/carteraMochila${imgIndex}.png`;
+                        break;
+                    case "Cartera Bandolera":
+                        imgIndex = (imgIndex % 4) + 1;
+                        img.src = `../assets/accesorios/carteraBandolera${imgIndex}.png`;
+                        break;
+                    case "Bolso Tubular":
+                        imgIndex = (imgIndex % 4) + 1;
+                        img.src = `../assets/accesorios/bolsoTubular${imgIndex}.png`;
+                        break;
+                    case "Billetera con Cierre":
+                        imgIndex = (imgIndex % 4) + 1;
+                        img.src = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
+                        break;
+                    case "Bandolera":
+                        imgIndex = (imgIndex % 3) + 1;
+                        img.src = `../assets/accesorios/bandolera${imgIndex}.png`;
+                        break;
+                    default:
+                        // Si el producto no coincide con ninguno de los casos anteriores, no se cambia la imagen
+                        break;
+                }
+            };
+
+            // Temporizador para cambiar la imagen cada 3 segundos (ajusta el tiempo según tus necesidades)
+            setInterval(changeImage, 3000);
+
+            const cardInfo = document.createElement('div');
+            cardInfo.classList.add('card-info', 'cardInfoP');
+
+            const h3 = document.createElement('h3');
+            h3.textContent = producto.nombre;
+
+            const p1 = document.createElement('p');
+            p1.textContent = producto.descripcion;
+
+            const p2 = document.createElement('p');
+            p2.textContent = `$${producto.precio}`;
+
+            cardInfo.appendChild(h3);
+            cardInfo.appendChild(p1);
+            cardInfo.appendChild(p2);
+
+            card.appendChild(img);
+            card.appendChild(cardInfo);
+
+            this.contenedor_productos.appendChild(card);
+        });
     }
 
 
+//** */
+darEventoClickAProductos(controladorCarrito) {
+    this.listaProductos.forEach(producto => {
 
+        const btnAP = document.getElementById(`accesorio-${producto.id}`)
+        btnAP.addEventListener("click", () => {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    darEventoClickAProductos(controladorCarrito) {
-        this.listaProductos.forEach(producto => {
-
-            const btnAP = document.getElementById(`accesorio-${producto.id}`)
-            btnAP.addEventListener("click", () => {
-
-                controladorCarrito.agregar(producto)
-                controladorCarrito.guardarEnStorage()
-                //TODO: que solo añada 1 producto al DOM. Que no recorra toda la lista.
-                controladorCarrito.mostrarEnDOM()
-            })
+            controladorCarrito.agregar(producto)
+            controladorCarrito.guardarEnStorage()
+            //TODO: que solo añada 1 producto al DOM. Que no recorra toda la lista.
+            controladorCarrito.mostrarEnDOM()
         })
-    }
+    })
 }
-
+}
+//
 
 
 class CarritoController {

@@ -7,6 +7,9 @@
   src: url("/font/cherolina/cherolina.ttf");
   /* Especifica la ubicación de la fuente dentro de tu proyecto */ }
 
+* {
+  margin: 0; }
+
 body {
   background-color: #c4ad99;
   height: auto; }
@@ -222,6 +225,10 @@ body {
     font-size: 60px;
     font-weight: bold; }
 
+@media only screen and (min-width: 2000px) {
+  .disvain {
+    display: none; } }
+
 @media only screen and (max-width: 1900px) {
   .carrouselContainer {
     height: 650px;
@@ -240,7 +247,6 @@ body {
 @media only screen and (max-width: 770px) {
   /* nav Bar*/
   .navbar-item {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px !important; }
   .icon {
     width: 200px;
@@ -248,7 +254,6 @@ body {
   .main h1 {
     display: flex;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     color: black; }
   .dropdownP {
     position: absolute;
@@ -260,7 +265,6 @@ body {
 @media only screen and (max-width: 760px) {
   /* nav Bar*/
   .navbar-item {
-    font-family: "Montserrat", sans-serif;
     font-size: 20px !important; }
   .icon {
     width: 200px;
@@ -268,19 +272,16 @@ body {
   .main h1 {
     display: flex;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     color: black; }
   .dropdownP {
     position: absolute;
     right: 5px;
     top: 50px;
-    background-color: #d6c3b2;
     z-index: 100; } }
 
 @media only screen and (max-width: 500px) {
   /* nav Bar*/
   .navbar-item {
-    font-family: "Montserrat", sans-serif;
     font-size: 18px !important; }
   .nav-link:focus {
     outline: none; }
@@ -290,13 +291,11 @@ body {
   .main h1 {
     display: flex;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     color: black; }
   .dropdownP {
     position: absolute;
     right: 5px;
     top: 50px;
-    background-color: #d6c3b2;
     z-index: 100; }
   .carrouselContainer {
     max-width: 100%;
@@ -344,12 +343,10 @@ body {
     width: 350px;
     height: 300px; }
   .formContainer {
-    background-color: #c4ad99 179, 38, 14;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 750px; }
     .formContainer h1 {
@@ -368,7 +365,6 @@ body {
   .sectioncirculos {
     padding: 0%;
     justify-content: space-between;
-    background-color: #c4ad99 179, 38, 14;
     width: 100%;
     height: 200px;
     border-top: solid white;
@@ -383,11 +379,9 @@ body {
       width: 100px;
       height: 100px; }
   .formContainer {
-    background-color: #c4ad99 179, 38, 14;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 750px; } }

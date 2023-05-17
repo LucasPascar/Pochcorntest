@@ -19,39 +19,83 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "N01-1", 1000, 10, "../assets/zapatillasN/N01.png", "Hecho en cuero", "N01"),
-            new Producto(2, "N02-1", 1000, 10, "../assets/zapatillasN/N02.png", "Hecho en cuero", "N02"),
-            new Producto(3, "N03-1", 1000, 10, "../assets/zapatillasN/N03.png", "Hecho en cuero", "N03"),
-            new Producto(4, "N04-1", 1000, 10, "../assets/zapatillasN/N04.png", "Hecho en cuero", "N04"),
-            new Producto(5, "N05-1", 1000, 10, "../assets/zapatillasN/N05.png", "Hecho en cuero", "N05"),
-            new Producto(6, "N06-1", 1000, 10, "../assets/zapatillasN/N06.png", "Hecho en cuero", "N06"),
-            new Producto(7, "N07-1", 1000, 10, "../assets/zapatillasN/N07.png", "Hecho en cuero", "N07"),
-            new Producto(8, "N08-1", 1000, 10, "../assets/zapatillasN/N08.png", "Hecho en cuero", "N08"),
-            new Producto(9, "N09-1", 1000, 10, "../assets/zapatillasN/N09.png", "Hecho en cuero", "N09"),
-            new Producto(10, "N10-1", 1000, 10, "../assets/zapatillasN/N010.png", "Hecho en cuero", "N10"),
-            new Producto(11, "N11-1", 1000, 10, "../assets/zapatillasN/N011.png", "Hecho en cuero", "N11"),
-            new Producto(12, "N12-1", 1000, 10, "../assets/zapatillasN/N012.png", "Hecho en cuero", "N12"),
-            new Producto(13, "N13-1", 1000, 10, "../assets/zapatillasN/N013.png", "Hecho en cuero", "N013"),
-            new Producto(14, "N14-1", 1000, 10, "../assets/zapatillasN/N014.png", "Hecho en cuero", "N014"),
-
+            new Producto(16, "Cannoli", 18000, 10, "../assets/zapatillasN/niños/cannoli1.png", "Hecho en cuero", "Cannoli"),
+            new Producto(17, "Gelato", 18000, 10, "../assets/zapatillasN/niños/gelato1.png", "Hecho en cuero", "Gelato"),
+            new Producto(18, "Tiramisu", 18000, 10, "../assets/zapatillasN/niños/biscotti1.png", "Hecho en cuero", "Biscotti"),
+            new Producto(19, "Biscotti", 18000, 10, "../assets/zapatillasN/niños/tiramisu1.png", "Hecho en cuero", "Tiramisu "),
 
         ]
     }
 
     mostrarEnDOM() {
-        //Mostramos los productos en DOM de manera dinamica
-        this.listaProductos.forEach(producto => {
-            this.contenedor_productos.innerHTML +=
-                `<div class="card cardP">
-                    <img src="${producto.img}" alt="${producto.alt}">
-                <div class="card-info cardInfoP">
-                    <h3>${producto.nombre}</h3>
-                    <p>${producto.descripcion}</p>
-                    <p>$${producto.precio}</p>
-                    <!--<a href="#" id="ZapatillasM N°-${producto.id}" class="btn btn-primary botonespecial">Añadir al carrito</a>--!>
-                </div>
-                </div>`
-        })
+        // Mostramos los productos en DOM de manera dinámica
+        this.listaProductos.forEach((producto) => {
+            let imgSrc = producto.img; // Por defecto, utilizamos la imagen original
+            let imgIndex = 1; // Índice de imagen actual
+
+            // Verificamos si es "Capri" o "Roma" para cambiar la imagen
+            if (producto.nombre === "Cannoli") {
+                imgSrc = `../assets/zapatillasN/niños/cannoli${imgIndex}.png`;
+            } else if (producto.nombre === "Tiramisu") {
+                imgSrc = `../assets/zapatillasN/niños/tiramisu${imgIndex}.png`;
+            } else if (producto.nombre === "Gelato") {
+                imgSrc = `../assets/zapatillasN/niños/gelato${imgIndex}.png`;
+            } else if (producto.nombre === "Biscotti") {
+                imgSrc = `../assets/zapatillasN/niños/biscotti${imgIndex}.png`;
+            }
+
+            const card = document.createElement('div');
+            card.classList.add('card', 'cardP');
+
+            const img = document.createElement('img');
+            img.id = `product-image-${producto.id}`;
+            img.src = imgSrc;
+            img.alt = producto.alt;
+
+            // Función para cambiar la imagen automáticamente
+            // Función para cambiar la imagen automáticamente
+            const changeImage = () => {
+                // Verificamos el producto y actualizamos la imagen según su nombre
+                switch (producto.nombre) {
+                    case "Cannoli":
+                        imgIndex = (imgIndex % 2) + 1; // Alternamos el índice de imagen de 1 a 8
+                        img.src = `../assets/zapatillasN/niños/cannoli${imgIndex}.png`;
+                        break;
+                    case "Tiramisu":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/zapatillasN/niños/tiramisu${imgIndex}.png`;
+                        break;
+
+                    default:
+                        // Si el producto no coincide con ninguno de los casos anteriores, no se cambia la imagen
+                        break;
+                }
+            };
+
+            // Temporizador para cambiar la imagen cada 3 segundos (ajusta el tiempo según tus necesidades)
+            setInterval(changeImage, 3000);
+
+            const cardInfo = document.createElement('div');
+            cardInfo.classList.add('card-info', 'cardInfoP');
+
+            const h3 = document.createElement('h3');
+            h3.textContent = producto.nombre;
+
+            const p1 = document.createElement('p');
+            p1.textContent = producto.descripcion;
+
+            const p2 = document.createElement('p');
+            p2.textContent = `$${producto.precio}`;
+
+            cardInfo.appendChild(h3);
+            cardInfo.appendChild(p1);
+            cardInfo.appendChild(p2);
+
+            card.appendChild(img);
+            card.appendChild(cardInfo);
+
+            this.contenedor_productos.appendChild(card);
+        });
     }
 
 

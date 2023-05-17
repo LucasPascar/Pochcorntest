@@ -19,10 +19,10 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "Capri", 18000, 10, "../assets/zapatillasM/capri1.png", "Colores disponibles: blanco-negro-aqqua-fucsia-crema", "Capri"),
-            new Producto(3, "Florencia", 18000, 10, "../assets/zapatillasM/florencia.png", "Colores disponibles: Negro, Blanco , Nude", "Florencia"),
-            new Producto(4, "Roma", 18000, 10, "../assets/zapatillasM/roma1.png", "Colores disponibles: Animal Print con blanco- Zebra con plateado- Cambio de cordones", "Roma"),
-            new Producto(6, "Venecia", 18000, 10, "../assets/zapatillasM/venecia.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
+            new Producto(12, "Capri", 18000, 10, "../assets/zapatillasM/capri1.png", "Colores disponibles: blanco-negro-aqqua-fucsia-crema", "Capri"),
+            new Producto(13, "Florencia", 18000, 10, "../assets/zapatillasM/florencia.png", "Colores disponibles: Negro, Blanco , Nude", "Florencia"),
+            new Producto(14, "Roma", 18000, 10, "../assets/zapatillasM/roma1.png", "Colores disponibles: Animal Print con blanco- Zebra con plateado- Cambio de cordones", "Roma"),
+            new Producto(15, "Venecia", 18000, 10, "../assets/zapatillasM/venecia.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
 
         ]
 
