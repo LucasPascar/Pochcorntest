@@ -19,19 +19,19 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(20, "Riñonera Mochila", 1000, 10, "../assets/accesorios/rinoneraMochila1.png", "Hecho en cuero", "riñoneraMochila"),
-            new Producto(21, "Riñonera Frontal", 1000, 10, "../assets/accesorios/rinoFrontal1.png", "Hecho en cuero", "riñoneraFrontal"),
-            new Producto(22, "Porta Notebook", 1000, 10, "../assets/accesorios/portaNotebook1.png", "Hecho en cuero", "portaNotebook"),
-            new Producto(23, "Porta Manta", 1000, 10, "../assets/accesorios/portaManta1.png", "Hecho en cuero", "portaManta"),
-            new Producto(24, "Mochila Europa", 1000, 10, "../assets/accesorios/mochila1.png", "Hecho en cuero", "MochilaEuropa"),
-            new Producto(25, "Matera", 1000, 10, "../assets/accesorios/matera1.png", "Hecho en cuero", "Matera"),
-            new Producto(26, "Cartera Tote", 1000, 10, "../assets/accesorios/carteraTote1.png", "Hecho en cuero", "CarteraTote"),
-            new Producto(27, "Cartera Mochila", 1000, 10, "../assets/accesorios/carteraMochila1.png", "Hecho en cuero", "CarteraMochila"),
-            new Producto(28, "Cartera Bandolera", 1000, 10, "../assets/accesorios/carteraBandolera1.png", "Hecho en cuero", "carteraBandolera"),
-            new Producto(29, "Bolso Tubular", 1000, 10, "../assets/accesorios/bolsoTubular1.png", "Hecho en cuero", "bolsoTubular"),
-            new Producto(30, "Billetera Masculina", 1000, 10, "../assets/accesorios/billeteraH1.png", "Hecho en cuero", "billeteraH1"),
-            new Producto(31, "Billetera con Cierre", 1000, 10, "../assets/accesorios/billeteraCierre1.png", "Hecho en cuero", "billeteraCierre"),
-            new Producto(32, "Bandolera", 1000, 10, "../assets/accesorios/bandolera1.png", "Hecho en cuero", "bandolera"),
+            new Producto(20, "Riñonera Mochila", 16000, 10, "../assets/accesorios/rinoneraMochila1.png", "100% cuero argentino trabajado a mano y excelente calidad de herrajes", "riñoneraMochila"),
+            new Producto(21, "Riñonera con bolsillo Frontal", 16000, 10, "../assets/accesorios/rinoFrontal1.png", "100% cuero argentino trabajado a mano", "riñoneraFrontal"),
+            new Producto(22, "Porta notebook de cuero floater 17 pulgadas", 17000, 10, "../assets/accesorios/portaNotebook1.png", "100% cuero argentino trabajado a mano trabajado a mano", "portaNotebook"),
+            new Producto(23, "Manta de lana y porta manta en cuero", 11000, 10, "../assets/accesorios/portaManta1.png", "100% cuero argentino trabajado a mano trabajado a mano y excelentes herrajes", "portaManta"),
+            new Producto(24, "Mochila tamaño mediano", 23000, 10, "../assets/accesorios/mochila1.png", "Dos bolsillos frontales, tiras regulables, 100% cuero argentino trabajado a mano trabajado a mano y excelente calidad de herrajes", "MochilaEuropa"),
+            new Producto(25, "Matero con doble cierre frontal", 34000, 10, "../assets/accesorios/matera1.png", "Con espacio para termo, mate, yerbera y azucarera ,100% cuero argentino trabajado a mano y una excelente calidad de herrajes", "Matera"),
+            new Producto(26, "Cartera Tote cierre con imán", 21000, 10, "../assets/accesorios/carteraTote1.png", "100% cuero argentino trabajado a mano trabajado a mano", "CarteraTote"),
+            new Producto(27, "Cartera Con Monedero", 23000, 10, "../assets/accesorios/carteraMochila1.png", "100% cuero argentino trabajado a mano y una excelente calidad de herrajes", "CarteraMochila"),
+            new Producto(28, "Cartera Bandolera", 23000, 10, "../assets/accesorios/carteraBandolera1.png", "Tiras de cuero de cocodrilo, 100% cuero argentino trabajado a mano, Excelente calidad de herrahes", "carteraBandolera"),
+            new Producto(29, "Bolso Tubular",40000, 10, "../assets/accesorios/bolsoTubular1.png", "100% cuero argentino trabajado a mano", "bolsoTubular"),
+            new Producto(30, "Billetera Dólar", 6000, 10, "../assets/accesorios/billeteraH1.png", "100% cuero argentino trabajado a mano", "billeteraH1"),
+            new Producto(31, "Billetera con cierre", 6000, 10, "../assets/accesorios/billeteraCierre1.png", "100% cuero argentino trabajado a mano", "billeteraCierre"),
+            new Producto(32, "Bandolera doble cierre", 20000, 10, "../assets/accesorios/bandolera1.png", "100% cuero argentino trabajado a mano  y una excelente calidad de herrajes", "bandolera"),
 
 
         ]
@@ -46,17 +46,17 @@ class ProductoController {
             // Verificamos si es "Capri" o "Roma" para cambiar la imagen
             if (producto.nombre === "Riñonera Mochila") {
                 imgSrc = `../assets/accesorios/rinoneraMochila${imgIndex}.png`;
-            } else if (producto.nombre === "Riñonera Frontal") {
+            } else if (producto.nombre === "Riñonera con bolsillo Frontal") {
                 imgSrc = `../assets/accesorios/rinoFrontal${imgIndex}.png`;
-            } else if (producto.nombre === "Porta Notebook") {
+            } else if (producto.nombre === "Porta notebook de cuero floater 17 pulgadas") {
                 imgSrc = `../assets/accesorios/portaNotebook${imgIndex}.png`;
-            } else if (producto.nombre === "Porta Manta") {
+            } else if (producto.nombre === "Manta de lana y porta manta en cuero") {
                 imgSrc = `../assets/accesorios/portaManta${imgIndex}.png`;
-            } else if (producto.nombre === "Mochila Europa") {
+            } else if (producto.nombre === "Mochila tamaño mediano") {
                 imgSrc = `../assets/accesorios/mochila${imgIndex}.png`;
-            } else if (producto.nombre === "Matera") {
+            } else if (producto.nombre === "Matero con doble cierre frontal") {
                 imgSrc = `../assets/accesorios/matera${imgIndex}.png`;
-            } else if (producto.nombre === "Cartera Mochila") {
+            } else if (producto.nombre === "Cartera Con Monedero") {
                 imgSrc = `../assets/accesorios/carteraMochila${imgIndex}.png`;
             } else if (producto.nombre === "Cartera Bandolera") {
                 imgSrc = `../assets/accesorios/carteraBandolera${imgIndex}.png`;
@@ -64,7 +64,7 @@ class ProductoController {
                 imgSrc = `../assets/accesorios/bolsoTubular${imgIndex}.png`;
             } else if (producto.nombre === "Billetera con Cierre") {
                 imgSrc = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
-            } else if (producto.nombre === "Bandolera") {
+            } else if (producto.nombre === "Bandolera doble cierre") {
                 imgSrc = `../assets/accesorios/bandolera${imgIndex}.png`;
             }
 
@@ -86,28 +86,28 @@ class ProductoController {
                         imgIndex = (imgIndex % 4) + 1; // Alternamos el índice de imagen de 1 a 8
                         img.src = `../assets/accesorios/rinoneraMochila${imgIndex}.png`;
                         break;
-                    case "Riñonera Frontal":
+                    case "Riñonera con bolsillo Frontal":
                         imgIndex = (imgIndex % 3) + 1;
                         img.src = `../assets/accesorios/rinoFrontal${imgIndex}.png`;
                         break;
                     // Agrega casos para los otros productos con hasta 8 imágenes
-                    case "Porta Notebook":
+                    case "Porta notebook de cuero floater 17 pulgadas":
                         imgIndex = (imgIndex % 2) + 1;
                         img.src = `../assets/accesorios/portaNotebook${imgIndex}.png`;
                         break;
-                    case "Porta Manta":
+                    case "Manta de lana y porta manta en cuero":
                         imgIndex = (imgIndex % 3) + 1;
                         img.src = `../assets/accesorios/portaManta${imgIndex}.png`;
                         break;
-                    case "Mochila Europa":
+                    case "Mochila tamaño mediano":
                         imgIndex = (imgIndex % 7) + 1;
                         img.src = `../assets/accesorios/mochila${imgIndex}.png`;
                         break;
-                    case "Matera":
+                    case "Matero con doble cierre frontal":
                         imgIndex = (imgIndex % 7) + 1;
                         img.src = `../assets/accesorios/matera${imgIndex}.png`;
                         break;
-                    case "Cartera Mochila":
+                    case "Cartera Con Monedero":
                         imgIndex = (imgIndex % 2) + 1;
                         img.src = `../assets/accesorios/carteraMochila${imgIndex}.png`;
                         break;
@@ -123,7 +123,7 @@ class ProductoController {
                         imgIndex = (imgIndex % 4) + 1;
                         img.src = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
                         break;
-                    case "Bandolera":
+                    case "Bandolera doble cierre":
                         imgIndex = (imgIndex % 3) + 1;
                         img.src = `../assets/accesorios/bandolera${imgIndex}.png`;
                         break;
