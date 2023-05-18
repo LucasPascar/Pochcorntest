@@ -20,7 +20,7 @@ class ProductoController {
     levantarProductos() {
         this.listaProductos = [
             new Producto(20, "Riñonera Mochila", 1000, 10, "../assets/accesorios/rinoneraMochila1.png", "Hecho en cuero", "riñoneraMochila"),
-            new Producto(21, "Riñonera Frontal", 1000, 10, "../assets/accesorios/rinoneraFrontal1.png", "Hecho en cuero", "riñoneraFrontal"),
+            new Producto(21, "Riñonera Frontal", 1000, 10, "../assets/accesorios/rinoFrontal1.png", "Hecho en cuero", "riñoneraFrontal"),
             new Producto(22, "Porta Notebook", 1000, 10, "../assets/accesorios/portaNotebook1.png", "Hecho en cuero", "portaNotebook"),
             new Producto(23, "Porta Manta", 1000, 10, "../assets/accesorios/portaManta1.png", "Hecho en cuero", "portaManta"),
             new Producto(24, "Mochila Europa", 1000, 10, "../assets/accesorios/mochila1.png", "Hecho en cuero", "MochilaEuropa"),
@@ -47,7 +47,7 @@ class ProductoController {
             if (producto.nombre === "Riñonera Mochila") {
                 imgSrc = `../assets/accesorios/rinoneraMochila${imgIndex}.png`;
             } else if (producto.nombre === "Riñonera Frontal") {
-                imgSrc = `.../assets/accesorios/rinoneraFrontal${imgIndex}.png`;
+                imgSrc = `../assets/accesorios/rinoFrontal${imgIndex}.png`;
             } else if (producto.nombre === "Porta Notebook") {
                 imgSrc = `../assets/accesorios/portaNotebook${imgIndex}.png`;
             } else if (producto.nombre === "Porta Manta") {
@@ -88,7 +88,7 @@ class ProductoController {
                         break;
                     case "Riñonera Frontal":
                         imgIndex = (imgIndex % 3) + 1;
-                        img.src = `../assets/accesorios/rinoneraFrontal${imgIndex}.png`;
+                        img.src = `../assets/accesorios/rinoFrontal${imgIndex}.png`;
                         break;
                     // Agrega casos para los otros productos con hasta 8 imágenes
                     case "Porta Notebook":
@@ -160,20 +160,20 @@ class ProductoController {
     }
 
 
-//** */
-darEventoClickAProductos(controladorCarrito) {
-    this.listaProductos.forEach(producto => {
+    //** */
+    darEventoClickAProductos(controladorCarrito) {
+        this.listaProductos.forEach(producto => {
 
-        const btnAP = document.getElementById(`accesorio-${producto.id}`)
-        btnAP.addEventListener("click", () => {
+            const btnAP = document.getElementById(`accesorio-${producto.id}`)
+            btnAP.addEventListener("click", () => {
 
-            controladorCarrito.agregar(producto)
-            controladorCarrito.guardarEnStorage()
-            //TODO: que solo añada 1 producto al DOM. Que no recorra toda la lista.
-            controladorCarrito.mostrarEnDOM()
+                controladorCarrito.agregar(producto)
+                controladorCarrito.guardarEnStorage()
+                //TODO: que solo añada 1 producto al DOM. Que no recorra toda la lista.
+                controladorCarrito.mostrarEnDOM()
+            })
         })
-    })
-}
+    }
 }
 //
 
