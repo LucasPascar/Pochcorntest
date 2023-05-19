@@ -19,19 +19,29 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(20, "Riñonera Mochila", 16000, 10, "../assets/accesorios/rinoneraMochila1.png", "100% cuero argentino trabajado a mano y excelente calidad de herrajes", "riñoneraMochila"),
-            new Producto(21, "Riñonera con bolsillo Frontal", 16000, 10, "../assets/accesorios/rinoFrontal1.png", "100% cuero argentino trabajado a mano", "riñoneraFrontal"),
-            new Producto(22, "Porta notebook de cuero floater 17 pulgadas", 17000, 10, "../assets/accesorios/portaNotebook1.png", "100% cuero argentino trabajado a mano trabajado a mano", "portaNotebook"),
-            new Producto(23, "Manta de lana y porta manta en cuero", 11000, 10, "../assets/accesorios/portaManta1.png", "100% cuero argentino trabajado a mano trabajado a mano y excelentes herrajes", "portaManta"),
-            new Producto(24, "Mochila tamaño mediano", 23000, 10, "../assets/accesorios/mochila1.png", "Dos bolsillos frontales, tiras regulables, 100% cuero argentino trabajado a mano trabajado a mano y excelente calidad de herrajes", "MochilaEuropa"),
-            new Producto(25, "Matero con doble cierre frontal", 34000, 10, "../assets/accesorios/matera1.png", "Con espacio para termo, mate, yerbera y azucarera ,100% cuero argentino trabajado a mano y una excelente calidad de herrajes", "Matera"),
-            new Producto(26, "Cartera Tote cierre con imán", 21000, 10, "../assets/accesorios/carteraTote1.png", "100% cuero argentino trabajado a mano trabajado a mano", "CarteraTote"),
-            new Producto(27, "Cartera Con Monedero", 23000, 10, "../assets/accesorios/carteraMochila1.png", "100% cuero argentino trabajado a mano y una excelente calidad de herrajes", "CarteraMochila"),
-            new Producto(28, "Cartera Bandolera", 23000, 10, "../assets/accesorios/carteraBandolera1.png", "Tiras de cuero de cocodrilo, 100% cuero argentino trabajado a mano, Excelente calidad de herrahes", "carteraBandolera"),
-            new Producto(29, "Bolso Tubular",40000, 10, "../assets/accesorios/bolsoTubular1.png", "100% cuero argentino trabajado a mano", "bolsoTubular"),
-            new Producto(30, "Billetera Dólar", 6000, 10, "../assets/accesorios/billeteraH1.png", "100% cuero argentino trabajado a mano", "billeteraH1"),
-            new Producto(31, "Billetera con cierre", 6000, 10, "../assets/accesorios/billeteraCierre1.png", "100% cuero argentino trabajado a mano", "billeteraCierre"),
-            new Producto(32, "Bandolera doble cierre", 20000, 10, "../assets/accesorios/bandolera1.png", "100% cuero argentino trabajado a mano  y una excelente calidad de herrajes", "bandolera"),
+            new Producto(20, "Riñonera Mochila", 16000, 10, "../assets/accesorios/rinoneraMochila1.png", "Riñonera mochila con excelente calidad de herrajes.Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "riñoneraMochila"),
+            new Producto(21, "Riñonera con bolsillo Frontal", 16000, 10, "../assets/accesorios/rinoFrontal1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "riñoneraFrontal"),
+            new Producto(22, "Porta notebook de cuero floater 17 pulgadas", 17000, 10, "../assets/accesorios/portaNotebook1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "portaNotebook"),
+            new Producto(23, "Manta de lana y porta manta en cuero", 11000, 10, "../assets/accesorios/portaManta1.png", "Manta de lana y porta manda de cuero con excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "portaManta"),
+            new Producto(24, "Mochila mediana", 23000, 10, "../assets/accesorios/mochilaH1.png", "Dos bolsillos frontales, tiras regulables con excelente calidad de herrajes .Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "MochilaEuropa"),
+            new Producto(25, "Mochila pequeña", 23000, 10, "../assets/accesorios/mochilaM1.png", "Dos bolsillos frontales, tiras regulables con excelente calidad de herrajes .Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "MochilaEuropa"),
+            new Producto(26, "Matero con doble cierre frontal", 34000, 10, "../assets/accesorios/matera1.png", "Matero con espacio para termo, mate, yerbera y azucarera .Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "Matera"),
+            new Producto(28, "Cartera Tote cierre imantado", 21000, 10, "../assets/accesorios/carteraTote1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "CarteraTote"),
+            new Producto(28, "Cartera mochila con monedero", 23000, 10, "../assets/accesorios/carteraMochila1.png", "Cartera convertible a mochila con tiras desmontables y excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "CarteraMochila"),
+            new Producto(29, "Cartera Bandolera", 23000, 10, "../assets/accesorios/carteraBandolera1.png", "Tiras de cuero de cocodrilo y excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "carteraBandolera"),
+            new Producto(30, "Bolso Tubular", 40000, 10, "../assets/accesorios/bolsoTubular1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano con excelente calidad de herrajes", "bolsoTubular"),
+            new Producto(31, "Billetera Dólar", 6000, 10, "../assets/accesorios/billeteraH1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraH1"),
+            new Producto(32, "Billetera con cierre", 6000, 10, "../assets/accesorios/billeteraCierre1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraCierre"),
+            new Producto(33, "Bandolera Porta Celular con tira regulable", 16000, 10, "../assets/accesorios/bandoleraCelular1.png", " Mochila convertible con tiras desmontables con excelente calidad de herrajes y monedero incluido. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "bandoleraCelular"),
+            new Producto(34, "Bandolera con tapa dura y cierre imantado", 17000, 10, "../assets/accesorios/bandoleraIman1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "bandolera"),
+            new Producto(35, "Billetera con elástico", 4000, 10, "../assets/accesorios/billeteraElastico1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraElastico"),
+            new Producto(36, "Mochila Bandolera", 25000, 10, "../assets/accesorios/mochilaBandolera1.png", "Mochila convertible a bandolera con bolsillo frontal y excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "mochilaBandolera"),
+            new Producto(37, "Morral grande con tira regulable", 40000, 10, "../assets/accesorios/morralGrande1.png", "Morral grande con dos bolsillos delanteros y excelente calidad de herrajes.Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "morralGrande"),
+            new Producto(38, "Riñonera con Dos Cierres y tira regulable", 15000, 10, "../assets/accesorios/rinoneraCierres1.png", "Excelente calidad de herrajes.Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "RinoneraCierre"),
+            new Producto(39, "Riñonera tipo banana con tira regulable", 80000, 10, "../assets/accesorios/rinoneraBanana1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "rinoneraBanana"),
+            new Producto(40, "Bandolera Doble Cierre", 20000, 10, "../assets/accesorios/bandolera1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraCierre"),
+            new Producto(41, "Billetera de cuero floater con cierre", 9000, 10, "../assets/accesorios/billeteraLarga1.png", "Utilizable como sobre de fiesta y porta celular. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraLarga"),
+
 
 
         ]
@@ -52,20 +62,40 @@ class ProductoController {
                 imgSrc = `../assets/accesorios/portaNotebook${imgIndex}.png`;
             } else if (producto.nombre === "Manta de lana y porta manta en cuero") {
                 imgSrc = `../assets/accesorios/portaManta${imgIndex}.png`;
-            } else if (producto.nombre === "Mochila tamaño mediano") {
-                imgSrc = `../assets/accesorios/mochila${imgIndex}.png`;
+            } else if (producto.nombre === "Mochila mediana") {
+                imgSrc = `../assets/accesorios/mochilaH${imgIndex}.png`;
+            } else if (producto.nombre === "Mochila pequeña") {
+                imgSrc = `../assets/accesorios/mochilaM${imgIndex}.png`;
             } else if (producto.nombre === "Matero con doble cierre frontal") {
                 imgSrc = `../assets/accesorios/matera${imgIndex}.png`;
             } else if (producto.nombre === "Cartera Con Monedero") {
                 imgSrc = `../assets/accesorios/carteraMochila${imgIndex}.png`;
+            } else if (producto.nombre === "Cartera Tote cierre imantado") {
+                imgSrc = `../assets/accesorios/carteraTote${imgIndex}.png`;
             } else if (producto.nombre === "Cartera Bandolera") {
                 imgSrc = `../assets/accesorios/carteraBandolera${imgIndex}.png`;
             } else if (producto.nombre === "Bolso Tubular") {
                 imgSrc = `../assets/accesorios/bolsoTubular${imgIndex}.png`;
-            } else if (producto.nombre === "Billetera con Cierre") {
+            } else if (producto.nombre === "Billetera con cierre") {
                 imgSrc = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
-            } else if (producto.nombre === "Bandolera doble cierre") {
+            } else if (producto.nombre === "Bandolera Doble Cierre") {
                 imgSrc = `../assets/accesorios/bandolera${imgIndex}.png`;
+            } else if (producto.nombre === "Bandolera Porta Celular con tira regulable") {
+                imgSrc = `../assets/accesorios/bandoleraCelular${imgIndex}.png`;
+            } else if (producto.nombre === "Bandolera con tapa dura y cierre imantado") {
+                imgSrc = `../assets/accesorios/bandoleraIman${imgIndex}.png`;
+            } else if (producto.nombre === "Billetera con elástico") {
+                imgSrc = `../assets/accesorios/bandoleraElastico${imgIndex}.png`;
+            } else if (producto.nombre === "Mochila Bandolera") {
+                imgSrc = `../assets/accesorios/mochilaBandolera${imgIndex}.png`;
+            } else if (producto.nombre === "Morral grande con tira regulable") {
+                imgSrc = `../assets/accesorios/morralGrande${imgIndex}.png`;
+            } else if (producto.nombre === "Riñonera con Dos Cierres y tira regulable") {
+                imgSrc = `../assets/accesorios/rinoneraCierres${imgIndex}.png`;
+            } else if (producto.nombre === "Riñonera tipo banana con tira regulable") {
+                imgSrc = `../assets/accesorios/rinoneraBanana${imgIndex}.png`;
+            } else if (producto.nombre === "Billetera de cuero floater con cierre") {
+                imgSrc = `../assets/accesorios/billeteraLarga${imgIndex}.png`;
             }
 
 
@@ -99,15 +129,23 @@ class ProductoController {
                         imgIndex = (imgIndex % 3) + 1;
                         img.src = `../assets/accesorios/portaManta${imgIndex}.png`;
                         break;
-                    case "Mochila tamaño mediano":
-                        imgIndex = (imgIndex % 7) + 1;
-                        img.src = `../assets/accesorios/mochila${imgIndex}.png`;
+                    case "Mochila mediana":
+                        imgIndex = (imgIndex % 5) + 1;
+                        img.src = `../assets/accesorios/mochilaH${imgIndex}.png`;
+                        break;
+                    case "Mochila pequeña":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/mochilaM${imgIndex}.png`;
+                        break;
+                    case "Cartera Tote cierre imantado":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/carteraTote${imgIndex}.png`;
                         break;
                     case "Matero con doble cierre frontal":
                         imgIndex = (imgIndex % 7) + 1;
                         img.src = `../assets/accesorios/matera${imgIndex}.png`;
                         break;
-                    case "Cartera Con Monedero":
+                    case "Cartera mochila con monedero":
                         imgIndex = (imgIndex % 2) + 1;
                         img.src = `../assets/accesorios/carteraMochila${imgIndex}.png`;
                         break;
@@ -119,13 +157,45 @@ class ProductoController {
                         imgIndex = (imgIndex % 4) + 1;
                         img.src = `../assets/accesorios/bolsoTubular${imgIndex}.png`;
                         break;
-                    case "Billetera con Cierre":
-                        imgIndex = (imgIndex % 4) + 1;
+                    case "Billetera con cierre":
+                        imgIndex = (imgIndex % 5) + 1;
                         img.src = `../assets/accesorios/billeteraCierre${imgIndex}.png`;
                         break;
-                    case "Bandolera doble cierre":
+                    case "Bandolera Doble Cierre":
                         imgIndex = (imgIndex % 3) + 1;
                         img.src = `../assets/accesorios/bandolera${imgIndex}.png`;
+                        break;
+                    case "Bandolera Porta Celular con tira regulable":
+                        imgIndex = (imgIndex % 12) + 1;
+                        img.src = `../assets/accesorios/bandoleraCelular${imgIndex}.png`;
+                        break;
+                    case "Bandolera con tapa dura y cierre imantado":
+                        imgIndex = (imgIndex % 3) + 1;
+                        img.src = `../assets/accesorios/bandoleraIman${imgIndex}.png`;
+                        break;
+                    case "Billetera con elástico":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/billeteraElastico${imgIndex}.png`;
+                        break;
+                    case "Mochila Bandolera":
+                        imgIndex = (imgIndex % 4) + 1;
+                        img.src = `../assets/accesorios/mochilaBandolera${imgIndex}.png`;
+                        break;
+                    case "Morral grande con tira regulable":
+                        imgIndex = (imgIndex % 3) + 1;
+                        img.src = `../assets/accesorios/morralGrande${imgIndex}.png`;
+                        break;
+                    case "Riñonera con Dos Cierres y tira regulable":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/rinoneraCierres${imgIndex}.png`;
+                        break;
+                    case "Riñonera tipo banana con tira regulable":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/rinoneraBanana${imgIndex}.png`;
+                        break;
+                    case "Billetera de cuero floater con cierre":
+                        imgIndex = (imgIndex % 4) + 1;
+                        img.src = `../assets/accesorios/billeteraLarga${imgIndex}.png`;
                         break;
                     default:
                         // Si el producto no coincide con ninguno de los casos anteriores, no se cambia la imagen

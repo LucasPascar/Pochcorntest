@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@1,200&display=swap');
+
+/**Agregados de estilo**/
+@font-face {
+  font-family: Cherolina;
+  /* Especifica el nombre que le quieres dar a la fuente */
+  src: url("/font/cherolina/cherolina.ttf");
+  /* Especifica la ubicación de la fuente dentro de tu proyecto */
+}
+
+*{
+ margin: 0;
+
+}
+body {
+  background-color: #c4ad99;
+  height: auto;
+}
+
+.bodya {
+  background-color: #c4ad99;
+}

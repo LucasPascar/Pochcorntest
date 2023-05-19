@@ -1,0 +1,462 @@
+@media only screen and (min-width:2000px) {
+  .disvain{
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width:1900px) {
+
+  .carrouselContainer {
+    height: 650px;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width:1520px) {
+  .carrouselContainer {
+    height: 300px;
+    width: 100%;
+  }
+
+
+  }
+
+
+
+@media only screen and (max-width:1366px) {
+  .carrouselContainer {
+    height: 800px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {}
+
+@media only screen and (max-width:770px) {
+  /* nav Bar*/
+
+
+
+  .navbar-item {
+    font-size: 20px !important;
+
+  }
+
+
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+
+
+
+
+
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    background-color: $colorprimario;
+    z-index: 100;
+  }
+
+}
+
+
+@media only screen and (max-width:760px) {
+  /* nav Bar*/
+
+
+
+  .navbar-item {
+    font-size: 20px !important;
+
+  }
+
+
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+
+
+
+
+
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width:700px) {
+ body{
+  height: auto;
+ }
+ 
+  /* nav Bar*/
+
+  .navbar-item {
+
+    font-size: 18px !important;
+
+  }
+  .nav-link:focus {
+    outline: none;
+  }
+
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    z-index: 100;
+  }
+
+  .carrouselContainer{
+    max-width: 100%;
+    height: 204px;
+  }
+
+  .carousel-item {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+
+  .sectionCirculos {
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 50px;
+    clear: both; /* Añade esta línea */
+  }
+
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .disvain {
+    display: none;
+  }
+
+
+  .condicionesContainer {
+
+    font-size: 20px;
+    width: 100%;
+    height: 300px;
+
+  }
+
+
+  /**Footer*/
+
+  .footerContainer {
+    text-align: center;
+
+  }
+
+  .footerContainer a {
+    font-size: 20px;
+  }
+
+  .footerContainer i {
+    font-size: 50px;
+  }
+
+
+  .footerContainerBrand p {
+    font-size: 20px;
+
+  }
+
+  /**Formulario*/
+
+  .inputContainerTa {
+    width: 350px;
+    height: 300px;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+
+    h1 {
+      padding-top: 20px;
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+}
+@media only screen and (max-width:500px) {
+  /* nav Bar*/
+
+  .navbar-item {
+
+    font-size: 18px !important;
+
+  }
+  .nav-link:focus {
+    outline: none;
+  }
+
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  .dropdownP {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    z-index: 100;
+  }
+
+  .carrouselContainer{
+    max-width: 100%;
+    height: 204px;
+  }
+
+  .carousel-item {
+    max-width: 100%;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 400px;
+    }
+  }
+
+  .sectionCirculos {
+    margin-top: 160px;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 200px;
+    max-width: 100%;
+  }
+
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    margin-top: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .disvain {
+    display: none;
+  }
+
+
+  .condicionesContainer {
+
+    font-size: 20px;
+    width: 100%;
+    height: 300px;
+
+  }
+
+
+  /**Footer*/
+
+  .footerContainer {
+    text-align: center;
+
+  }
+
+  .footerContainer a {
+    font-size: 20px;
+  }
+
+  .footerContainer i {
+    font-size: 50px;
+  }
+
+
+  .footerContainerBrand p {
+    font-size: 20px;
+
+  }
+
+  /**Formulario*/
+
+  .inputContainerTa {
+    width: 350px;
+    height: 300px;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+
+    h1 {
+      padding-top: 20px;
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+}
+
+
+@media only screen and (max-width:400px) {
+
+
+  .carrouselContainer {
+    height: 218px;
+    width: 100%;
+  }
+
+  .disvain{
+    display: none;
+  }
+
+  .sectioncirculos {
+    padding: 0%;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    border-top: solid white;
+    align-items: center;
+  }
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+  }
+
+}
+@media only screen and (max-width:200px) {
+
+
+  .carrouselContainer {
+    height: 218px;
+    width: 100%;
+  }
+
+  .disvain{
+    display: none;
+  }
+
+  .sectioncirculos {
+    padding: 0%;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    border-top: solid white;
+    align-items: center;
+  }
+  .containerCircular {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+  }
+
+}

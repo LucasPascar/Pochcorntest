@@ -1,0 +1,57 @@
+  /**E-commerce*/
+
+  .botonespecial {
+    background-color: $colorprimario;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .botonespecial:hover {
+    background-color: #f5e8d7;
+    color: black;
+  }
+
+  .botonespecial2 {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .botonespecial2:hover {
+    background-color: red;
+    color: black
+  }
+
+
+  /**cards de productos*/
+
+  .cardP {
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .cardInfoP {
+    text-align: center;
+    justify-content: center;
+
+    h3 {
+      font-family: $fontSecundaria ;
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
