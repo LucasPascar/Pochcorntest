@@ -19,17 +19,17 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "Amalfitana", 18000, 10, "../assets/zapatillasH/amalfitana/amalfitana1.png", "Hecho en cuero 100% vacuno", "Amalfitana"),
-            new Producto(2, "Catania", 18000, 10, "../assets/zapatillasH/catania/catania1.png", "Hecho en cuero 100% vacuno", "Catania"),
-            new Producto(3, "Cinque Terre", 18000, 10, "../assets/zapatillasH/cinque/cinqueterre1.png", "Hecho en cuero 100% vacuno", "Cinque Terre"),
-            new Producto(4, "Italia", 18000, 10, "../assets/zapatillasH/italia/italia1.png", "Hecho en cuero 100% vacuno", "Italia"),
-            new Producto(5, "Milan", 18000, 10, "../assets/zapatillasH/milan/milan1.png", "Hecho en cuero 100% vacuno", "Milan"),
-            new Producto(6, "Pisa", 18000, 10, "../assets/zapatillasH/pisa/pisa1.png", "Hecho en cuero 100% vacuno", "Pisa"),
-            new Producto(7, "Pompeya", 18000, 10, "../assets/zapatillasH/pompeya/pompeya1.png", "Hecho en cuero 100% vacuno", "Pompeya"),
-            new Producto(8, "Portofino", 18000, 10, "../assets/zapatillasH/portofino/portofino1.png", "Hecho en cuero 100% vacuno", "Portofino"),
-            new Producto(9, "Positano", 18000, 10, "../assets/zapatillasH/positano/positano1.png", "Hecho en cuero 100% vacuno", "Positano"),
-            new Producto(10, "Torino", 18000, 10, "../assets/zapatillasH/torino/torino1.png", "Hecho en cuero 100% vacuno", "Torino"),
-            new Producto(11, "Venecia", 18000, 10, "../assets/zapatillasH/venecia/venecia1.png", "Hecho en cuero 100% vacuno", "Venecia"),
+            new Producto(24, "Amalfitana", 18000, 10, "../assets/zapatillasH/amalfitana/amalfitana1.png", "Hecho en cuero 100% vacuno", "Amalfitana"),
+            new Producto(25, "Catania", 18000, 10, "../assets/zapatillasH/catania/catania1.png", "Hecho en cuero 100% vacuno", "Catania"),
+            new Producto(26, "Cinque Terre", 18000, 10, "../assets/zapatillasH/cinque/cinqueterre1.png", "Hecho en cuero 100% vacuno", "Cinque Terre"),
+            new Producto(27, "Italia", 18000, 10, "../assets/zapatillasH/italia/italia1.png", "Hecho en cuero 100% vacuno", "Italia"),
+            new Producto(28, "Milan", 18000, 10, "../assets/zapatillasH/milan/milan1.png", "Hecho en cuero 100% vacuno", "Milan"),
+            new Producto(29, "Pisa", 18000, 10, "../assets/zapatillasH/pisa/pisa1.png", "Hecho en cuero 100% vacuno", "Pisa"),
+            new Producto(30, "Pompeya", 18000, 10, "../assets/zapatillasH/pompeya/pompeya1.png", "Hecho en cuero 100% vacuno", "Pompeya"),
+            new Producto(31, "Portofino", 18000, 10, "../assets/zapatillasH/portofino/portofino1.png", "Hecho en cuero 100% vacuno", "Portofino"),
+            new Producto(32, "Positano", 18000, 10, "../assets/zapatillasH/positano/positano1.png", "Hecho en cuero 100% vacuno", "Positano"),
+            new Producto(33, "Torino", 18000, 10, "../assets/zapatillasH/torino/torino1.png", "Hecho en cuero 100% vacuno", "Torino"),
+            new Producto(34, "Venecia", 18000, 10, "../assets/zapatillasH/venecia/venecia1.png", "Hecho en cuero 100% vacuno", "Venecia"),
 
         ]
     }

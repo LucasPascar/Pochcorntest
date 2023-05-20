@@ -19,10 +19,10 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(16, "Cannoli", 18000, 10, "../assets/zapatillasN/niños/cannoli1.png", "Hecho en cuero", "Cannoli"),
-            new Producto(17, "Gelato", 18000, 10, "../assets/zapatillasN/niños/gelato1.png", "Hecho en cuero", "Gelato"),
-            new Producto(18, "Tiramisu", 18000, 10, "../assets/zapatillasN/niños/biscotti1.png", "Hecho en cuero", "Biscotti"),
-            new Producto(19, "Biscotti", 18000, 10, "../assets/zapatillasN/niños/tiramisu1.png", "Hecho en cuero", "Tiramisu "),
+            new Producto(41, "Cannoli", 18000, 10, "../assets/zapatillasN/niños/cannoli1.png", "Hecho en cuero", "Cannoli"),
+            new Producto(42, "Gelato", 18000, 10, "../assets/zapatillasN/niños/gelato1.png", "Hecho en cuero", "Gelato"),
+            new Producto(43, "Tiramisu", 18000, 10, "../assets/zapatillasN/niños/biscotti1.png", "Hecho en cuero", "Biscotti"),
+            new Producto(44, "Biscotti", 18000, 10, "../assets/zapatillasN/niños/tiramisu1.png", "Hecho en cuero", "Tiramisu "),
 
         ]
     }

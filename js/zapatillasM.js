@@ -19,12 +19,12 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(12, "Capri", 18000, 10, "../assets/zapatillasM/capri1.png", "Colores disponibles: blanco-negro-aqqua-fucsia-crema", "Capri"),
-            new Producto(13, "Florencia", 18000, 10, "../assets/zapatillasM/florencia1.png", "Colores disponibles: Negro, Blanco , Nude", "Florencia"),
-            new Producto(14, "Roma", 18000, 10, "../assets/zapatillasM/roma1.png", "Colores disponibles: Animal Print con blanco- Zebra con plateado- Cambio de cordones", "Roma"),
-            new Producto(15, "Venecia", 18000, 10, "../assets/zapatillasM/venecia.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
-            new Producto(16, "Genova", 18000, 10, "../assets/zapatillasM/genova1.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
-            new Producto(17, "Milan", 18000, 10, "../assets/zapatillasM/milan1.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
+            new Producto(35, "Capri", 18000, 10, "../assets/zapatillasM/capri1.png", "Colores disponibles: blanco-negro-aqqua-fucsia-crema", "Capri"),
+            new Producto(36, "Florencia", 18000, 10, "../assets/zapatillasM/florencia1.png", "Colores disponibles: Negro, Blanco , Nude", "Florencia"),
+            new Producto(37, "Roma", 18000, 10, "../assets/zapatillasM/roma1.png", "Colores disponibles: Animal Print con blanco- Zebra con plateado- Cambio de cordones", "Roma"),
+            new Producto(38, "Venecia", 18000, 10, "../assets/zapatillasM/venecia.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
+            new Producto(39, "Genova", 18000, 10, "../assets/zapatillasM/genova1.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
+            new Producto(40, "Milan", 18000, 10, "../assets/zapatillasM/milan1.png", "Colores disponibles : Negro y blanco - Blanco y plateado, Negro y dorado, Plateado", "Venecia"),
 
         ]
 
