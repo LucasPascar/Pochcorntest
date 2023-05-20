@@ -74,7 +74,6 @@ class ProductoController {
             img.alt = producto.alt;
 
             // Función para cambiar la imagen automáticamente
-            // Función para cambiar la imagen automáticamente
             const changeImage = () => {
                 // Verificamos el producto y actualizamos la imagen según su nombre
                 switch (producto.nombre) {
@@ -120,7 +119,7 @@ class ProductoController {
                         img.src = `../assets/zapatillasH/torino/torino${imgIndex}.png`;
                         break;
                     case "Venecia":
-                        imgIndex = (imgIndex % 8) + 1;
+                        imgIndex = (imgIndex % 11) + 1;
                         img.src = `../assets/zapatillasH/venecia/venecia${imgIndex}.png`;
                         break;
                     default:

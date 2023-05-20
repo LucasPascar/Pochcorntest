@@ -99,12 +99,20 @@
                 </div>
             </div>
         </div>
+        <div class="botones">
+            <button class="custom-button" id="button1" onclick="openModal('/assets/botones/tablaTalles.png')">Tabla de talles</button>
+            <button class="custom-button1" id="button2" onclick="openModal('/assets/botones/formasPago.png')">Formas de pago</button>
+            <button class="custom-button2" id="button3" onclick="openModal('/assets/botones/limpiarWeb.png')">Como cuidar nuestros productos</button>
+        </div>
 
-
+        <div id="modal" class="modal">
+            <span onclick="closeModal()" class="close">&times;</span>
+            <img id="modalImage" src="" alt="Imagen">
+          </div>
 
     </main>
 
-
+    <script src="../js/botones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
@@ -115,9 +123,10 @@
 <div class="footerContainer">
     <div class="footerContainerBrand">
         <p>Contactanos por</p>
-        <a href="https://www.instagram.com/tana_herencia/"> <i class="fa-brands fa-instagram " style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/tana_herencia/"> <i class="fa-brands fa-instagram "
+                style="color: #000000;"></i></a>
         <a href="https://api.whatsapp.com/send?phone=+541156911375&text=Hola,%20me%20interesaria%20"> <i
-            class="fa-brands fa-whatsapp fbicon"></i></a>
+                class="fa-brands fa-whatsapp fbicon"></i></a>
     </div>
 
 </html>
