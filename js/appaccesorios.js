@@ -32,7 +32,7 @@ class ProductoController {
             new Producto(30, "Bolso Tubular", 40000, 10, "../assets/accesorios/bolsoTubular1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano con excelente calidad de herrajes", "bolsoTubular"),
             new Producto(31, "Billetera Dólar", 6000, 10, "../assets/accesorios/billeteraH1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraH1"),
             new Producto(32, "Billetera con cierre", 6000, 10, "../assets/accesorios/billeteraCierre1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraCierre"),
-            new Producto(33, "Bandolera Porta Celular con tira regulable", 16000, 10, "../assets/accesorios/bandoleraCelular1.png", " Mochila convertible con tiras desmontables con excelente calidad de herrajes y monedero incluido. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "bandoleraCelular"),
+            new Producto(33, "Bandolera Porta Celular con tira regulable", 16000, 10, "../assets/accesorios/bandoleraCelular1.png", "Bandolera con excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "bandoleraCelular"),
             new Producto(34, "Bandolera con tapa dura y cierre imantado", 17000, 10, "../assets/accesorios/bandoleraIman1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "bandolera"),
             new Producto(35, "Billetera con elástico", 4000, 10, "../assets/accesorios/billeteraElastico1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraElastico"),
             new Producto(36, "Mochila Bandolera", 25000, 10, "../assets/accesorios/mochilaBandolera1.png", "Mochila convertible a bandolera con bolsillo frontal y excelente calidad de herrajes. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "mochilaBandolera"),
@@ -41,6 +41,7 @@ class ProductoController {
             new Producto(39, "Riñonera tipo banana con tira regulable", 80000, 10, "../assets/accesorios/rinoneraBanana1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "rinoneraBanana"),
             new Producto(40, "Bandolera Doble Cierre", 20000, 10, "../assets/accesorios/bandolera1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraCierre"),
             new Producto(41, "Billetera de cuero floater con cierre", 9000, 10, "../assets/accesorios/billeteraLarga1.png", "Utilizable como sobre de fiesta y porta celular. Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "billeteraLarga"),
+            new Producto(42, "Botinero doble cierre", 17000, 10, "../assets/accesorios/botinero1.png", "Fabricado con 100% cuero vacuno, trabajado artesanalmente a mano", "botinero"),
 
 
 
@@ -96,7 +97,10 @@ class ProductoController {
                 imgSrc = `../assets/accesorios/rinoneraBanana${imgIndex}.png`;
             } else if (producto.nombre === "Billetera de cuero floater con cierre") {
                 imgSrc = `../assets/accesorios/billeteraLarga${imgIndex}.png`;
+            } else if (producto.nombre === "Botinero doble cierre") {
+                imgSrc = `../assets/accesorios/botinero${imgIndex}.png`;
             }
+
 
 
             const card = document.createElement('div');
@@ -196,6 +200,10 @@ class ProductoController {
                     case "Billetera de cuero floater con cierre":
                         imgIndex = (imgIndex % 4) + 1;
                         img.src = `../assets/accesorios/billeteraLarga${imgIndex}.png`;
+                        break;
+                    case "Botinero doble cierre":
+                        imgIndex = (imgIndex % 2) + 1;
+                        img.src = `../assets/accesorios/botinero${imgIndex}.png`;
                         break;
                     default:
                         // Si el producto no coincide con ninguno de los casos anteriores, no se cambia la imagen
